@@ -1,12 +1,60 @@
-# React + Vite
+# ⚛️ ReactRoutesFun
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ReactRoutesFun** is a playful and practical project to explore routing in React using `React Router v6`. It includes nested routes, dynamic parameters, and navigation — all built with 💖 using Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo  
+[**Click here to view the app**](https://react-routes-fun.vercel.app/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🧭 Routing with `BrowserRouter`, `Routes`, `Route`, `Link`
+- 🔀 Dynamic routes using `useParams`
+- ⏪ Easy back navigation with `useNavigate`
+- 💨 Tailwind CSS styling
+- 🧩 Modular and clean component structure
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e33bc7d-f658-4547-9b7b-7c1ff94fa261" alt="Desktop Preview" width="300"/>
+  &nbsp;
+</p>
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Krunal022/ReactRoutesFun.git
+
+cd ReactRoutesFun
+
+npm install
+
+npm run dev
+````
+
+---
+
+## 📁 Stack
+
+* React + Vite
+* React Router v6
+* Tailwind CSS
+
+---
+
+## 📌 Note
+
+This project is perfect for learning routing patterns, nested routes, and dynamic navigation with React.
+
+---
+
+> Made with 💙 by [Krunal](https://github.com/Krunal022)
+
