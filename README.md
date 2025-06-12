@@ -1,29 +1,34 @@
 # ⚛️ ReactRoutesFun
 
-**ReactRoutesFun** is a playful and practical project to explore routing in React using `React Router v6`. It includes nested routes, dynamic parameters, and navigation — all built with 💖 using Vite and Tailwind CSS.
+**ReactRoutesFun** is a playful and practical React project to explore routing with `React Router v6`. It includes **nested routes**, **dynamic parameters**, and smart navigation — all built with 💖 using **Vite** and **Tailwind CSS**.
 
 ---
 
-## 🔗 Live Demo  
-[**Click here to view the app**](https://react-routes-fun.vercel.app/)  
+## 🔗 Live Demo
+
+[**View Live App**](https://react-routes-fun.vercel.app/)
 
 ---
 
 ## ✨ Features
 
-- 🧭 Routing with `BrowserRouter`, `Routes`, `Route`, `Link`
-- 🔀 Dynamic routes using `useParams`
-- ⏪ Easy back navigation with `useNavigate`
-- 💨 Tailwind CSS styling
-- 🧩 Modular and clean component structure
+* 🧭 Routing using `BrowserRouter`, `Routes`, `Route`, `Link`
+* 🔀 Dynamic paths via `useParams`
+* ⏪ Navigation control using `useNavigate`
+* 🧩 Nested routing using `<Outlet />`
+* 💅 Styled with Tailwind CSS
+* ⚙️ Clean and modular component structure
 
 ---
 
-## 📸 Preview
-
+### 🖥️ Desktop Preview
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e33bc7d-f658-4547-9b7b-7c1ff94fa261" alt="Desktop Preview" width="300"/>
-  &nbsp;
+  <img src="https://github.com/user-attachments/assets/9e9a1542-ba98-4de2-9196-4b4cac4478bd" alt="Desktop Preview" width="600" />
+</p>
+
+### 📱 Mobile Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7771f5df-1228-4d6b-9b7a-395a553432cd" alt="Mobile Preview" width="250" />
 </p>
 
 ---
@@ -32,17 +37,14 @@
 
 ```bash
 git clone https://github.com/Krunal022/ReactRoutesFun.git
-
 cd ReactRoutesFun
-
 npm install
-
 npm run dev
-````
+```
 
 ---
 
-## 📁 Stack
+## 🛠 Tech Stack
 
 * React + Vite
 * React Router v6
@@ -52,9 +54,8 @@ npm run dev
 
 ## 📌 Note
 
-This project is perfect for learning routing patterns, nested routes, and dynamic navigation with React.
+This project is ideal for learning modern routing in React, including **dynamic and nested routes** with real-time navigation experience.
 
 ---
 
 > Made with 💙 by [Krunal](https://github.com/Krunal022)
-
