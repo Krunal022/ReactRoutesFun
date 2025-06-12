@@ -5,6 +5,7 @@ import Product from "./Product";
 import Projects from "./Projects";
 import Service from "./Service";
 import ProductDetail from "./ProductDetail";
+import ServiceDetail from "./ServiceDetail";
 
 const Mainroutes = () => {
   return (
@@ -13,7 +14,9 @@ const Mainroutes = () => {
       <Route path="/about" element={<About />} />
       <Route path="/product" element={<Product />} />
       <Route path="/product/detail/:name" element={<ProductDetail />} />
-      <Route path="/service" element={<Service />} />
+      <Route path="/service" element={<Service />} >
+        <Route path="/service/detail" element={<ServiceDetail />} />
+      </Route>
       <Route path="/projects" element={<Projects />} />
     </Routes>
   );
