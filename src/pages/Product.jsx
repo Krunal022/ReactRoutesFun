@@ -6,7 +6,7 @@ const Product = () => {
     navigate(`/product/detail/${name}`);
   };
   return (
-    <div className="w-screen h-full py-[18%] px-[5%] sm:py-[7%] ">
+    <div className="w-screen h-full py-[25%] px-[5%] sm:py-[7%] ">
       <h1 className="text-6xl  font-md mb-5">Products</h1>
       <div>
         <h2 className="text-4xl font-thin ">Product 1</h2>

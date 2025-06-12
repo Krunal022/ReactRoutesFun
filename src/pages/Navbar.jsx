@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black shadow-md fixed w-full z-10">
+    <nav className="bg-black shadow-md py-3 fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -22,25 +22,37 @@ function Navbar() {
           <div className="hidden md:flex gap-6 text-base items-center">
             <NavLink
               to="/about"
-              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
+              className={(e) =>
+                (e.isActive ? "text-pink-500" : "text-white") +
+                " hover:text-pink-500 transition duration-300"
+              }
             >
               About
             </NavLink>
             <NavLink
               to="/product"
-              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
+              className={(e) =>
+                (e.isActive ? "text-pink-500" : "text-white") +
+                " hover:text-pink-500 transition duration-300"
+              }
             >
               Product
             </NavLink>
             <NavLink
               to="/service"
-              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
+              className={(e) =>
+                (e.isActive ? "text-pink-500" : "text-white") +
+                " hover:text-pink-500 transition duration-300"
+              }
             >
               Service
             </NavLink>
             <NavLink
               to="/projects"
-              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
+              className={(e) =>
+                (e.isActive ? "text-pink-500" : "text-white") +
+                " hover:text-pink-500 transition duration-300"
+              }
             >
               Projects
             </NavLink>
@@ -81,31 +93,31 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white px-4 pb-4 text-sm">
+        <div className="md:hidden bg-white px-4 pb-4 text-[1.77rem]">
           <NavLink
             to="/about"
-            className="block py-2 text-gray-700 hover:text-pink-500"
+            className="block py-2  border-b mt-1 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             About
           </NavLink>
           <NavLink
             to="/product"
-            className="block py-2 text-gray-700 hover:text-pink-500"
+            className="block py-2  border-b mt-1 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Product
           </NavLink>
           <NavLink
             to="/service"
-            className="block py-2 text-gray-700 hover:text-pink-500"
+            className="block py-2  border-b mt-1 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Service
           </NavLink>
           <NavLink
             to="/projects"
-            className="block py-2 text-gray-700 hover:text-pink-500"
+            className="block py-2  border-b mt-1 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Projects

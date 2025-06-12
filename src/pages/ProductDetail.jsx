@@ -5,8 +5,10 @@ const ProductDetail = () => {
   console.log(params);
   const navigate = useNavigate();
   return (
-    <div className="w-screen h-full py-[18%] px-[5%] sm:py-[7%]">
-      <h1 className="text-6xl font-thin wrap- font-md mb-5">Product Detail..</h1>
+    <div className="w-screen h-full py-[25%] px-[5%] sm:py-[7%]">
+      <h1 className="text-6xl font-thin wrap- font-md mb-5">
+        Product Detail..
+      </h1>
 
       <div>
         <h2 className="text-4xl font-thin ">{params.name}</h2>

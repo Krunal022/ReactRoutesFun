@@ -3,7 +3,7 @@ import Mainroutes from "./pages/Mainroutes";
 
 const App = () => {
   return (
-    <div className="bg-pink-300 w-screen h-screen text-5xl">
+    <div className="bg-pink-300 w-screen min-h-screen text-5xl">
       <Navbar />
       <Mainroutes />
     </div>

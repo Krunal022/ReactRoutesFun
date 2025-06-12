@@ -4,10 +4,10 @@ const ServiceDetail = () => {
   const navigate = useNavigate();
   return (
     <div className="w-screen h-full ">
-      <h1 className="text-4xl font-thin font-md mb-5">Service Detail..</h1>
+      <h1 className="text-4xl font-md font-md mb-5">Service Detail..</h1>
 
       <div className="w-[80%] h-fit lg:w-[50%] ">
-        <h2 className="text-2xl font-thin overflow-auto">
+        <h2 className="text-2xl font-normal overflow-auto">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
           pariatur iure quibusdam, ut ipsam magnam, a inventore culpa,
           architecto illo tempore. Magnam nostrum unde ipsum.
