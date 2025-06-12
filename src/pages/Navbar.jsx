@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,40 +10,40 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link
+            <NavLink
               to="/"
               className="text-2xl font-bold text-pink-500 hover:text-pink-600 transition duration-300"
             >
               🦕
-            </Link>
+            </NavLink>
           </div>
 
           {/* Desktop Links */}
           <div className="hidden md:flex gap-6 text-base items-center">
-            <Link
+            <NavLink
               to="/about"
-              className="text-white hover:text-pink-500 transition duration-300"
+              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
             >
               About
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/product"
-              className="text-white hover:text-pink-500 transition duration-300"
+              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
             >
               Product
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/service"
-              className="text-white hover:text-pink-500 transition duration-300"
+              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
             >
               Service
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/projects"
-              className="text-white hover:text-pink-500 transition duration-300"
+              className={(e) => (e.isActive ? 'text-pink-500' : 'text-white') + ' hover:text-pink-500 transition duration-300'}
             >
               Projects
-            </Link>
+            </NavLink>
           </div>
 
           {/* Mobile Menu Button */}
@@ -82,34 +82,34 @@ function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white px-4 pb-4 text-sm">
-          <Link
+          <NavLink
             to="/about"
             className="block py-2 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             About
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/product"
             className="block py-2 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Product
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/service"
             className="block py-2 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Service
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/projects"
             className="block py-2 text-gray-700 hover:text-pink-500"
             onClick={() => setIsOpen(false)}
           >
             Projects
-          </Link>
+          </NavLink>
         </div>
       )}
     </nav>
